@@ -1,0 +1,26 @@
+{
+    "name": "ESPUpdate",
+    "version": "1.0.0",
+    "description": "This library allows you to update the firmware of ESP8266/ESP32 devices over the air. With web interface to management your firmware for you product",
+    "keywords": ["firmware", "update", "ESP8266", "ESP32"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/ESPUpdate.git"
+    },
+    "authors": [
+        {
+            "name": "Minh Duong",
+            "email": "duongnm.dev@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"],
+    "dependencies": {
+        "ArduinoJson": "^6.18.3",
+        "ESPAsyncWebServer": "^1.2.3",
+        "ESPAsyncWiFiManager": "^0.22.0",
+        "AsyncTCP": "^1.1.1"
+    }
+}
